@@ -70,3 +70,8 @@
 print_r(
     (!isset($_SERVER['SERVER_SOFTWARE']) && (php_sapi_name() == 'cli' || (is_numeric($_SERVER['argc']) && $_SERVER['argc'] > 0)))
 );
+
+
+var_dump(...$argv);
+
+print_r($argv);
